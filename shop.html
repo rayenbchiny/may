@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painting Products - Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Reset styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body Styles */
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        /* Navigation Styles */
+        nav {
+            background-color: #333;
+            padding: 1rem;
+        }
+
+        nav ul {
+            list-style: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 1rem;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        /* Shop Page Styles */
+        #shop {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .product {
+            display: inline-block;
+            margin: 0 1rem 2rem;
+        }
+
+        .product img {
+            width: 200px;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .product-name {
+            margin-top: 1rem;
+            font-size: 1.2rem;
+            color: #333;
+        }
+        .payment-button {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background-color: #660033; /* Very dark pink */
+            color: #fff;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        .payment-button:hover {
+            transform: scale(1.1); /* Scale up on hover */
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="payment.html">Payment</a></li>
+            <li><a href="review.html">Review</a></li>
+        </ul>
+    </nav>
+
+    <!-- Shop Page Content -->
+    <section id="shop">
+        <h2>Shop Our Products</h2>
+        <div class="product">
+            <img src="assets/product.png" alt="Painting Product 1">
+            <p class="product-name">Painting Product 1</p>
+            <a href="payment.html">
+            <button class="payment-button">BUY</button>
+            </a>
+        </div>
+        <div class="product">
+            <img src="assets/222.png" alt="Painting Product 2">
+            <p class="product-name">Painting Product 2</p>
+            <a href="payment.html">
+                <button class="payment-button">BUY</button>
+                </a>
+        </div>
+        <div class="product">
+            <img src="assets/333.jpg" alt="Painting Product 3">
+            <p class="product-name">Painting Product 3</p>
+            <a href="payment.html">
+                <button class="payment-button">BUY</button>
+                </a>
+        </div> <div class="product">
+            <img src="assets/444.jpg" alt="Painting Product 4">
+            <p class="product-name">Painting Product 4</p>
+            <a href="payment.html">
+                <button class="payment-button">BUY</button>
+                </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Painting Products. All rights reserved.</p>
+    </footer>
+</body>
+</html>
